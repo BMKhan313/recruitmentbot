@@ -1,0 +1,218 @@
+.navbar_spacing1{
+    margin-right: 2%;
+    min-width: max-content;
+    font-size: 0.8rem;
+}
+.adjustspace_navbar{
+    position: relative;
+    top: 15px;
+    margin-left: 8%;
+   
+}
+.logo_styling{
+    width: 200px;
+    height: auto;
+    
+}
+.navbar_spacing4{
+    margin-right: 2%;
+    min-width: max-content;
+    display: none;
+}
+
+.navbar_spacing{
+    margin-right: 2%;
+    min-width: max-content;
+    font-size:0.8rem;
+}
+.navbar_spacing3{
+    margin-left: 2%;
+    position: relative;
+    top: -15px;
+    min-width: max-content;
+    background-color:#ffff;
+    color: #1d1e2c !important;
+    border-radius: 14px;
+    padding: 2% 1% 2% 1% !important;
+    font-size: 0.8rem;
+    cursor: pointer;
+
+}
+.navbar_spacing3 a {
+    color: #1d1e2c !important;
+}
+
+
+.bg_color{
+  background-color: #38C0CA;
+    padding: 1% 3% 1% 3%;
+}
+.list_styling{
+    position: absolute;
+    /* border: 2px solid black; */
+    background-color: white;
+    width: 25%;
+    list-style: none;
+    margin-top: 3%;
+    margin-left: -3%;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-align: left;
+    z-index: 9999999;
+    box-shadow:0px 4px 12px rgba(0,0,0,0.5);
+   
+}
+.list_styling:hover {
+    color: #1d1e2c !important;
+}
+.list_styling li {
+    position: relative;
+    left: -15px;
+    color: #1d1e2c !important;
+}
+
+
+.list_styling li a{
+    color: #1d1e2c !important;
+    background-color: #ffff;
+
+}
+.list_styling li a:hover{
+    color: #38c0ca !important;
+    background-color: white !important;
+
+}
+.navbar_spacing a:hover{
+    color: #1d1e2c !important;
+    background-color: #38c0ca !important;
+}
+.navbar_spacing1 a:hover{
+    color: #1d1e2c !important;
+    background-color: #38C0CA !important;
+}
+.navbar_spacing3 a:hover{
+    color: #38c0ca !important;
+    /* background-color: red !important; */
+}
+
+@media only screen and (max-width:1350px){
+    .adjustspace_navbar{
+       
+        margin-left: -5%;
+       
+    }
+    .list_styling{
+        width: 20%;
+    }
+}
+@media only screen and (max-width:1150px){
+    .adjustspace_navbar {
+        margin-left: -25%;
+        top: 20px;
+    }
+    .list_styling{
+        width: 25%;
+    }
+}
+@media only screen and (max-width:1024px){
+  li a{
+      min-width: max-content;
+  }
+ 
+
+  .navbar_spacing3{
+    display: none;
+  }
+  .navbar_spacing4{
+      display: block;
+  }
+}
+@media only screen and (max-width:990px){
+    .adjustspace_navbar {
+        position: relative;;
+        /* left: -80px; */
+        margin-left: 0%;
+        top: 0px;
+    }
+    .navbar_spacing3{
+       position: relative;
+       left: 100px;
+        margin-top: 2%;
+    }
+    .list_styling{
+        width: 25%;
+    }
+    .navbar_spacing1{
+        position: relative;
+        left: 20px;
+    }
+}
+@media only screen and (max-width:550px){
+   .adjustspace_navbar{
+       left: -40px;
+   }
+    .list_styling{
+        width: 40%;
+    }
+   
+}
+@media only screen and (max-width:450px){
+   
+    /* .navbar_spacing{
+        position: relative;
+       left: 55px;
+    } */
+    /* .navbar_spacing1{
+       position: relative;
+       left: 65px;
+    } */
+    .list_styling{
+      width: 90%;
+      text-align: left;
+      margin-left: -2% !important;
+       
+    }
+     .navbar_spacing3{
+        background-color:#ffff ;
+        padding: 0%;
+        /* display: none; */
+    }
+
+}
+@media only screen and (max-width:411px){
+   
+    .list_styling{
+        margin-left: -5%;
+    }
+    .adjustspace_navbar{
+        left:-5px;
+    }
+}
+@media only screen and (max-width:375px){
+    /* .navbar_spacing3{
+        position: relative;
+        left:100px !important;
+    } */
+}
+@media only screen and (max-width:320px){
+.list_styling{
+    width: 100%;
+}
+.navbar_spacing3{
+    left: 45% !important;
+}
+}
+
+@media only screen and (max-width:280px){
+    .navbar_spacing{
+        position: relative;
+        left: 40px;
+    }
+    .navbar_spacing1{
+        position: relative;
+        left: 55px;
+    }
+}
+
+

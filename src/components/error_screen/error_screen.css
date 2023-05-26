@@ -1,0 +1,79 @@
+/* #error-screen > div{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+   vertical-align: top;
+} */
+.error-text,.error_img{
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+.error-text h1{
+  color: #bc4c9a;
+  margin: 0px;
+}
+
+.error-text span{
+  display: block;
+  font-size: 11.5rem;
+  color: #bc4c9a;
+}
+
+.error-text button{
+  display: block;
+  margin: 0 auto;
+  font-size: 2.2rem;
+  border: none;
+  background-color: #FFF;
+  color: #5755b5;
+  text-decoration: underline;
+}
+.error-text img{
+  width: 100%;
+}
+.error_img{
+  justify-items: right;
+}
+.error-img-style{
+  /* margin-top: -300px; */
+  width: 70%;
+}
+/* ipad pro */
+@media only screen and (max-width:1024px){
+  .error_img img{
+    width: 98%;
+  }
+}
+@media only screen and (max-width:967px){
+  .error-text,.error_img{
+    margin-top: 10%;
+  }
+  .error-text span{
+    font-size: 7rem;
+  }
+}
+/* ipad */
+@media only screen and (max-width:768px){
+  
+  .error-text button{
+    font-size: 1.6rem;
+  }
+  .error_img img{
+    width: 97%;
+  }
+}
+@media only screen and (max-width:550px){
+  .error-text span{
+    font-size: 4rem;
+  }
+}
+/* iphone X */
+@media only screen and (max-width:375px){
+  #error-screen > div{
+    grid-template-columns: auto;
+  }
+  .error_img img{
+    width: 64.3%;
+  }
+}

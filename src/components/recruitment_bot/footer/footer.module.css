@@ -1,0 +1,200 @@
+.footer {
+  width: 100%;
+  position: relative;
+  margin-top: 5%;
+  vertical-align: bottom;
+  background-color: #1d1e2c;
+  color: #ffff;
+  font-family: "Oxygen";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* background-color: white;
+  color:#1d1e2c; */
+}
+
+.footer_space {
+  /* background-color: rgb(35, 110, 175); */
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1%;
+}
+
+.logo_styling {
+  background-image: url("https://staging-fe.mycareerdreams.com/static/logo-da3a5639600e4e44dc58b14f9b3d0aab.webp");
+  /* width: 200px;
+  height: auto; */
+  text-align: left;
+  padding: 2%;
+  margin-left: 5%;
+  /* background-color: #38c0ca; */
+
+  height: 70px;
+  width: 200px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.email_button a:hover {
+  color: #38c0ca;
+}
+
+.email_setting {
+  position: relative;
+  top: -5px;
+  text-align: center;
+}
+
+.email_button {
+  padding: 4%;
+  /* border-radius: 14px; */
+  background-color: #ffff;
+  color: #38c0ca;
+  width: 60%;
+  position: relative;
+  /* left: 70px; */
+  cursor: pointer;
+
+  /* background: #1D1E2C; */
+  border-radius: 25px;
+}
+
+.email_button a {
+  color: #1d1e2c;
+  text-align: center;
+  text-decoration: none !important;
+  cursor: pointer;
+
+  /* color:white */
+}
+
+.last_line {
+  text-align: center;
+  padding-top: 2%;
+}
+
+#cont {
+  background-color: rgb(14, 255, 175) !important;
+}
+
+.inlineText h5 {
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer_space h5,
+  p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  /* .email_button {
+    left: 50px;
+  } */
+  .logo_styling {
+    background-image: url("./static/logo2.png");
+    /* width: auto;
+    height: auto; */
+    position: absolute;
+    /* bottom: 150px; */
+    left: 21%;
+    top: -20px;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* text-align: left;
+    padding: 2%; */
+    /* background-color: #38c0ca; */
+    /* background-position: center; 
+    background-size: contain;
+    background-repeat: no-repeat; */
+    background-image: url("./static/logo2.png");
+    /* background-color: #f1cccc; */
+    height: 70px;
+    width: 200px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* position: relative; */
+  }
+
+  /* .logo_styling {
+    display: none;
+    background-color: #38c0ca;
+    
+  } */
+  .footer_space {
+    /* background-color: aquamarine; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+  }
+
+  .footer {
+    position: relative;
+    background-color: white;
+    color: #1d1e2c;
+    height: 205px;
+    align-items: flex-end;
+  }
+
+  .email_button {
+    background: #1d1e2c;
+    width: 141px;
+    padding: 2% 0%;
+    margin-top: 15px;
+  }
+
+  .email_button a {
+    color: white;
+    font-size: 16px;
+  }
+
+  .inlineText h5 {
+    font-weight: 950 !important;
+    font-size: 14px !important;
+    padding: 0;
+    margin: 0;
+    margin-right: 5px;
+    color: black;
+  }
+
+  .inlineText p {
+    font-weight: 400;
+    width: fit-content;
+    font-size: 12px;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .last_line {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 9px;
+  }
+
+  .inlineText {
+    width: 85vw;
+    text-align: center !important;
+    align-self: center !important;
+    /* padding: 0 !important;
+    margin: 0 !important; */
+    display: inline-flex;
+    /* align-items: center;
+    align-content: center; */
+    justify-content: center;
+    /* background-color: bisque; */
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+  }
+}

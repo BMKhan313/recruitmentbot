@@ -1,0 +1,91 @@
+.advice-meter { 
+	height: 24px;  /* Can be anything */
+	position: relative;
+	background: #efe7f8;/*#555 #8c7dc3*/
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	/* padding: 10px; */
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.advice-meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: linear-gradient(
+      center bottom,
+      rgb(43,194,83) 37%,
+      rgb(84,240,84) 69%
+    );
+    /* box-shadow: 
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4); */
+    position: relative;
+    overflow: hidden;
+}
+
+.advice-meter span:last-child{
+  background-color: #FFF;
+  /* display: inline; */
+  
+  position: absolute;
+  top: -7px;
+  width: 42px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.advice-meter span label{
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #8c7dc3;
+  /* text-shadow: 2px 2px 4px #000000; */
+  /* font-weight: bold; */
+  position: relative;
+  top: 14%;
+  left: 5%;
+}
+
+.advice-meter.green > span:first-child{
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #80ff72 0%, #7ee8fa 74%);
+
+}
+.advice-meter.yellow > span:first-child{
+  background-color: #f7f439;
+  /* background-image: linear-gradient(315deg, #b49d96 0%, #f9d976 74%); */
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  /* background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 50%, #ffdd00 90%); */
+}
+.advice-meter.red > span:first-child{
+  background-color: #e3433b;
+  /* background-image: linear-gradient(315deg, #fbd72b 0%, #f9484a 74%); */
+  /* background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%); */
+  background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+}
+
+.advice-meter.green span:last-child{
+  border: 4px solid #80ff72;
+}
+.advice-meter.yellow span:last-child{
+  /* border: 4px solid #f7f439; */
+  border: 4px solid #fbb034;
+}
+.advice-meter.red span:last-child{
+  /* border: 4px solid #e3433b; */
+  border: 4px solid #fc9842;
+} 
+
+/* .advice-meter.green span label{
+  color: #83dc9a;
+}
+.advice-meter.yellow span label{
+  color: #f7f439;
+}
+.advice-meter.red span label{
+  color: #e3433b;
+}  */

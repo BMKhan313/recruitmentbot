@@ -1,0 +1,388 @@
+/* *{
+    font-family:var(--body-font);
+} */
+/* .container{
+        max-width: max-content;
+
+} */
+/* .row{
+margin-right: 0% !important;
+} */
+.row{
+	margin-right: 0px !important;
+}
+.testing_model{
+	position: relative;
+	top:10px;
+	box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.5);
+	border-radius: 14px;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+#first.row {
+	margin: 0% !important;
+}
+#first {
+	padding-top: 8%;
+	padding-left: 8%;
+	padding-right: 4%;
+}
+#second {
+	padding-top: 8%;
+	padding-left: 2%;
+	padding-right: 1%;
+}
+#second.row {
+	margin: 0% !important;
+}
+#third {
+	padding-top: 8%;
+	padding-right: 1%;
+	padding-left: 2%;
+}
+#third.row {
+	margin: 0% !important;
+}
+
+#fourth {
+	padding-left: 8%;
+	padding-top: 8%;
+}
+#fourth.row {
+	margin: 0% !important;
+}
+#fifth {
+	padding: 0% !important;
+	margin: 0% !important;
+}
+.background {
+	color: purple;
+}
+.set_img {
+	width: 20%;
+	height: 40%;
+	position: absolute;
+	margin-top: 12%;
+	padding-top: 2rem;
+	margin-left: -10%;
+}
+.top_heading {
+	color: #d43f8d;
+	position: absolute;
+	padding-left: 5%;
+	padding-top: 2%;
+	font-weight: 400;
+	font-family:var(--heading-font);
+	/* text-decoration: underline; */
+}
+.top_heading_0 {
+	color: #d43f8d;
+	position: absolute;
+	margin-top: -80px;
+	margin-left: -30px;
+	font-weight: 400;
+	font-family:var(--heading-font);
+	
+}
+.top_heading_1 {
+	color: #d43f8d;
+	position: absolute;
+	padding-left: 8%;
+	margin-top: -80px;
+	font-weight: 400;
+	font-family:var(--heading-font);
+	
+}
+
+/* .main_image {
+	background-image: url("./static/stats_main.png");
+	background-size: 100% 100% !important;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-bottom: 6%;
+} */
+
+.relocate_piechart {
+	padding-top: 5%;
+}
+.text_size {
+	font-size: 20px;
+	color: purple;
+	align-content: center;
+	font-family:var(--body-font);
+	
+}
+.average_age {
+	position: absolute;
+	padding-top: 110px;
+	color: white;
+	font-size: 50px;
+	/* margin-left: -49px; */
+	/* margin-left: -38%;
+     */
+	margin-left: 5.5rem;
+	margin-top: -2.5rem;
+}
+.gender_img {
+	height: 200px;
+	-webkit-filter: drop-shadow(0px 5px 10px rgba(0,0,0,0.5));
+	filter: drop-shadow(0px 5px 10px rgba(0,0,0,0.5));
+}
+
+.age_align {
+	margin-top: -5.5rem;
+	color: purple;
+}
+.set_age_height {
+	height: 20rem;
+	width: 15rem;
+	margin-top: -30px;
+}
+
+#align {
+	margin-left: -50px;
+}
+
+.inline_images {
+	display: inline-block;
+	color: purple;
+}
+
+.number {
+	font-size: 30px;
+	color: purple;
+	vertical-align: middle;
+	/* float: left; */
+}
+
+.text_count {
+	vertical-align: middle;
+	padding-top: 5vh;
+	margin-left: -1vw;
+}
+.headng {
+	color: white;
+	padding-top: 5%;
+	font-size: 20px;
+}
+.heading1 {
+	color: purple;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.image_size {
+	/* width: 140px; */
+	height: 200px !important;
+	-webkit-filter: drop-shadow(0px 5px 10px rgba(0,0,0,0.5));
+	filter: drop-shadow(0px 5px 10px rgba(0,0,0,0.5));
+	
+
+	/* background-color: transparent; */
+}
+
+.counselling_size {
+	height: 250px;
+}
+.para {
+	font-size: 14px;
+	color: purple;
+	font-family:var(--body-font);
+	
+	text-align: center;
+	/* vertical-align:middle; */
+	/* padding-left: 5% !important; */
+}
+
+.image_level {
+	padding-top: 20px;
+	height: 170px;
+}
+.image_level1 {
+	padding-left: 15px;
+}
+.inline-block {
+	display: inline-block;
+}
+#underline {
+	text-decoration: underline;
+	float: left;
+}
+
+/* #pie_chart { */
+	/* padding-left: 10% !important; */
+/* } */
+.text_count {
+	padding-top: 2.5rem;
+}
+@media only screen and (max-width: 1400px) {
+	.set_img {
+		padding-top: 0.5rem;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.text_count {
+		padding-left: 3rem;
+	}
+	.set_img {
+		margin-top: 1.8rem;
+	}
+	.gender_img {
+		height: 11rem;
+	}
+}
+@media only screen and (max-width: 919px) {
+	.testing_model{
+	box-shadow: none;
+	}
+	.gender_img {
+		height: 9rem;
+	}
+	.set_age_height {
+		height: 15rem;
+		width: 10rem;
+		margin-top: -30px;
+	}
+	.average_age {
+		margin-left: 3rem;
+		margin-top: -4.5rem;
+	}
+	.age_align {
+		margin-top: -4rem;
+	}
+	.set_img {
+		margin-top: 1.5rem;
+	}
+	.image_size {
+		height: 150px !important;
+	}
+	.text_count {
+		margin-top: -2rem;
+		margin-left: -1.5rem;
+	}
+}
+@media only screen and (max-width: 850px) {
+	.set_img {
+		margin-top: 1.5rem;
+	}
+	.image_size {
+		height: 120px !important;
+	}
+	.text_count {
+		margin-top: -2rem;
+		margin-left: -2rem;
+	}
+	.top_heading_1 {
+		font-size: 1.5rem;
+	}
+	.top_heading_0 {
+		font-size: 1.5rem;
+	}
+	.top_heading {
+		font-size: 1.5rem;
+	}
+}
+@media only screen and (max-width: 770px) {
+	.gender_img {
+		height: 7rem;
+	}
+	.set_age_height {
+		height: 13rem;
+		width: 9rem;
+		margin-top: -30px;
+	}
+	.average_age {
+		margin-left: 3rem;
+		margin-top: -5.5rem;
+	}
+	.set_img {
+		margin-top: 0.5rem;
+	}
+	.para {
+		font-size: 0.5rem;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.main_image {
+		background-image: none;
+	}
+	.text_count {
+		margin-left: -10rem;
+		margin-top: -1rem;
+	}
+	.image_size {
+		height: 180px !important;
+		margin-left: 4rem;
+	}
+	.set_img {
+		margin-top: 7rem;
+	}
+	.top_heading_0 {
+		margin-top: -3rem;
+	}
+	.top_heading_1 {
+		padding-top: 1rem;
+		margin-top: 1rem;
+		margin-left: -6.5rem;
+	}
+	.set_padding_heading {
+		padding-top: 5rem;
+	}
+	.para {
+		margin-left: 1rem;
+	}
+	#first {
+		margin-left: 25rem;
+	}
+}
+@media only screen and (max-width: 680px) {
+	.text_count {
+		margin-left: -8rem;
+	}
+	.set_img {
+		margin-top: 5.5rem;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.image_size {
+		margin-left: -10rem;
+	}
+	.text_count {
+		margin-left: 7rem;
+		margin-top: -12rem;
+	}
+	.set_img {
+		margin-top: 4.5rem;
+	}
+}
+@media only screen and (max-width: 490px) {
+	.set_img {
+		margin-top: 3rem;
+	}
+	.text_count {
+		margin-left: 4rem;
+	}
+	.top_heading_1 {
+		margin-left: -4.3rem;
+		font-size: 1rem;
+	}
+	.top_heading {
+		font-size: 1rem;
+	}
+	.top_heading_0 {
+		font-size: 1rem;
+	}
+}
+@media only screen and (max-width: 380px) {
+	.set_img {
+		margin-top: 2rem;
+	}
+	.top_heading {
+		font-size: 1rem;
+	}
+	.top_heading_0 {
+		font-size: 1rem;
+	}
+	.top_heading_1 {
+		font-size: 1rem;
+	}
+}

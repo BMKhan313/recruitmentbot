@@ -1,0 +1,58 @@
+.footer{
+    width: 100%;
+    position: relative;
+    top: 140px;
+    vertical-align: bottom;
+    background-color: #1d1e2c;
+    color: #ffff;
+    font-family: 'Oxygen';
+}
+.logo_styling{
+    width: 200px;
+    height: auto;
+    text-align: left;
+    padding: 2%;
+}
+.email_button a:hover{
+    color: #38c0ca;
+}
+
+.email_setting{
+    position: relative;
+    top:-5px;
+    text-align: center;
+}
+.email_button{
+    padding: 4%;
+    border-radius: 14px;
+    background-color: #ffff;
+    color: #38C0CA;
+    width: 60%;
+    position: relative;
+    left: 70px;
+    cursor: pointer;
+
+   
+}
+.email_button a{
+    color: #1d1e2c;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.last_line{
+    text-align: center;
+    padding-top: 2%;
+}
+@media only screen and (max-width:900px){
+ 
+    .footer_space h5,p{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:320px){
+ 
+ .email_button{
+     left: 50px;
+ }
+}

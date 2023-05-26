@@ -1,0 +1,364 @@
+.input_label{
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  margin: 1rem 0 0.2rem;
+  color: white;
+  font-family:"Poppins"
+}
+
+.inp_input{
+  width: 100%;
+  padding: 0.65rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  border: 2px solid #4a5568;
+  background-color: #2d3748;
+  border-radius: 30px;
+  outline: none;
+  font-family:"Poppins"
+}
+.inp_input_error{
+  width: 100%;
+  padding: 0.65rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  border: 2px solid #fc8181;
+  background-color: #2d3748;
+  border-radius: 30px;
+  outline: none;
+}
+.inp_input:focus {
+  /* border-color: #4299e1; */
+  border-color: #38c0ca;
+
+}
+
+.inp_input::placeholder {
+  color: #a0aec0;
+}
+
+.inp_input.input-error {
+  border-color: #fc8181;
+}
+
+.inp_error{
+  color: #fc8181;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 0.25rem;
+}
+
+.inp_submit{
+  
+  margin: 2rem 0 0.5rem 0;
+  padding: 0.65rem 1.5rem;
+  background-color: #38c0ca;
+  /* color: #1a202c; */
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 35%;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family:"Poppins"
+}
+
+
+.loading_setting {
+  text-align: center;
+  color: #ffff;
+  margin: 2rem 0 0.5rem 0;
+}
+.loading_style {
+  text-align: center;
+  color: #575250;
+  width: "20%";
+  margin: 2rem 0 0.5rem 0;
+}
+
+.input_submit{
+  background-color: #38C0CA;
+  width: 50%;
+  padding: 2%;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+.label_setting{
+  left:5px ;
+}
+.div_enter_name{
+background-color: #1d1e2c00 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #5DADBE ;
+}
+/* ....................Form Div ..............................  */
+
+.form_setting {
+  position: relative;
+  top: 30%;
+  text-align: left;
+  width: 100%;
+}
+.form_inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.input_setting {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 50%;
+}
+.submit_setting {
+  padding: 10px 20px;
+  background-color: #1d1e2c !important ;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  color: #ffff !important;
+}
+.inline_input input {
+  color: #ffff;
+}
+.form_div {
+  min-width: 500px;
+  max-width: 600px;
+  /* padding: 4% 4% 2% 4%; */
+  padding: 3% 3% 2% 3%;
+  position: fixed;
+  /* left: 30%; */
+  /* top: 3%; */
+  border-radius: 4px;
+  z-index: 1000;
+  /* background-color: #1d1e2c; */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(29, 30, 44, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+
+  border: 3px solid #68748F;
+  border-radius: 50px;
+
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+a {
+  cursor: pointer;
+}
+.close {
+  text-align: right;
+  position: absolute;
+  top: 2%;
+  cursor: pointer;
+}
+.close img {
+  width: 20%;
+  position: relative;
+  left: -5px;
+  margin: 10%;
+}
+.div_enter_name {
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ffff;
+  opacity: 0.6;
+  margin-bottom: 13px;
+  width: 100%;
+}
+.form_area form div {
+  position: relative;
+}
+.form_area form div label {
+  position: absolute;
+  top: 5px;
+  color: #ffff;
+  opacity: 0.6;
+  transition: 0.5s;
+  pointer-events: none;
+  font-size: 14px;
+}
+.form_area input:focus ~ label,
+.form_area input:valid ~ label {
+  top: -15px;
+  color: #38c0ca;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* .form_area input:focus,
+.form_area input:valid {
+  border-bottom: 2px solid #38c0ca;
+} */
+
+.inline_input select {
+  color: #ffff !important;
+  background-color: #1d1e2c;
+  opacity: 0.6;
+  font-size: 14px;
+}
+.inline_input [type="file"] {
+  color: #ffff;
+}
+.inline_input select:focus,
+.inline_input select:valid {
+  border-bottom: 2px solid #38c0ca;
+}
+
+.inline_input {
+  width: 100%;
+}
+.label_styling {
+  left: -2px;
+  opacity: 0.6;
+}
+::-webkit-file-upload-button {
+  background: #38c0ca;
+  color: #ffff;
+  border: none;
+}
+
+.resume_input_setting {
+  width: 50%;
+  border-bottom: none !important;
+  position: relative;
+  top: 5px;
+}
+.button_register {
+  /* background-color: #38c0ca; */
+
+  color: #ffff;
+  /* padding: 2%; */
+  margin: 5% 0%;
+  font-size: 1.1rem;
+  /* width: 30%; */
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+}
+.button_register input {
+  color: #ffff !important;
+}
+.button_register:hover {
+  color: #ffff;
+  opacity: 1;
+  transition: 0.5s;
+}
+.translate_btn {
+  color: #ffff;
+  width: 50%;
+  margin-bottom: 2%;
+  border-radius: 4px;
+  display: inline-grid;
+  grid-template-columns: 50% 50%;
+  cursor: pointer;
+}
+.register_button {
+  background-color: #38c0ca;
+  min-width: 120%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0.4rem 0;
+  text-transform: uppercase;
+}
+.login_button {
+  background-color: white;
+  color: #38c0ca;
+  min-width: 120%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 0.4rem 0;
+  text-transform: uppercase;
+}
+.email_setting {
+  position: relative;
+  top: -5px;
+}
+.forgot_text_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.forgot_text {
+  margin: 2% 0 0;
+  color: #ddd;
+  font-size: 1.0rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: max-content;
+  text-align: center;
+  font-family:"Poppins"
+}
+.forgot_text:hover {
+  cursor: pointer;
+  color: #ffff;
+}
+/* .....................................Form Div Ends Here.............................................................  */
+@media only screen and (max-width: 990px) {
+  .form_setting {
+    padding-bottom: 10%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .form_setting {
+    padding-bottom: 25%;
+  }
+  .form_sub_div {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .input_setting {
+    vertical-align: middle;
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 70%;
+  }
+  .submit_setting {
+    padding: 6px 10px;
+    background-color: #7e3a77;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    color: white;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+  .form_setting {
+    padding-bottom: 40%;
+  }
+  .form_div {
+    min-width: 90%;
+
+  }
+}
+@media only screen and (max-width: 320px) {
+  .form_setting {
+    padding-bottom: 48%;
+  }
+  .form_div {
+    min-width: 90%;
+
+  }
+}

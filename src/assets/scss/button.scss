@@ -1,0 +1,22 @@
+$background_pink: linear-gradient(  hsl(327, 65%, 52%),hsl(337, 65%, 52%) );
+$white: #FFF;
+.btn-theme{
+    font-family: var(--button-font);
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    color: $white;
+    background:$background_pink;
+    border: none;
+    border: 1px solid transparent;
+    // box-shadow: rgba(181,29,108,0.24) 1px 2px 0px 0px;
+    transition: all 0.3s; 
+}
+
+.btn-theme:hover{
+    background: #fFf;
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}

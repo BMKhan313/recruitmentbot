@@ -1,0 +1,35 @@
+.height_control {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border:5px solid blue;
+}
+
+.header {
+  background: gray;
+  flex: 0.15;
+}
+.chatbot_wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.main_div {
+  display: flex;
+  overflow: auto;
+  position: relative;
+  background-color: green;
+}
+.chat_flow_div {
+  height: 200vh;
+}
+.input_form {
+  background-color: rgb(255, 174, 0);
+  min-height: 5vh;
+}
+.footer_div {
+  background: gray;
+  flex: 0.15;
+}

@@ -1,0 +1,448 @@
+
+.bg_control{
+    background: url('./static/demo.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom:10% ;
+}
+.first_div{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.fisrt_subdiv{
+    width: 80%;
+    text-align: left;
+}
+.main_div{
+  width: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  top: 20px;
+}
+.sub_div{
+  width: 80%;
+  border-radius: 15px;
+}
+.step_styling{
+    width: 80px;
+    height: 80px;
+    /* height: auto; */
+    /* min-height: 100px; */
+    
+}
+.icon_text{
+    margin-top: 2%;
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-family: 'prompt';
+    text-align: center;
+}
+.loading_setting{
+    text-align: center;
+    color: #ffff;
+}
+.clendly_close{
+    position: absolute;
+    top:9%;
+    width: 72%;
+  
+}
+.clendly_close img {
+    cursor: pointer;
+    width: 3% !important;
+}
+.like_heading{
+    font-family: 'Prompt';
+    text-align: left;
+    margin: 5% 5% 0% 0%;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.like_heading1{
+    font-family: 'Oxygen';
+    text-align: left;
+    margin: 5% 5% 0% 5%;
+    font-family: 'Oxygen';
+    font-weight: 800;
+}
+.like_sub_heading{
+    font-family: 'Prompt';
+    text-align: left;
+    margin: 5% 5% 4% 0%;
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+.form_setting{
+    position: relative;
+    margin: 2% 3% 2% 25%;
+    text-align: left;
+    width: 50%;
+}
+  .input_setting{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70%;
+  }
+  .submit_setting{
+    padding: 10px 20px;
+    background-color:#38c0ca !important ;
+    border-radius: 10px;
+    border: 1px solid #38c0ca;
+    color: #ffff !important;
+    cursor: pointer;
+    font-weight: 600;
+  }
+.img_setting{
+    width: 100%;
+}
+
+
+/* .............................css of first div ends here .............................  */
+
+.second_main_div{
+    width: 100%;
+    background-color: black;
+}
+.main_heading{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'prompt';
+}
+.punch_line{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'oxygen';
+}
+.bg_color{
+    display: inline-block;
+    width: 80%;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.hr_line{
+    border-color:#F4B63F  ;
+    width: 50%;
+    margin-bottom: 2%;
+}
+.designation_heading{
+    font-family: 'Oxygen';
+    text-align: left;
+    float: left;
+    color:white;
+}
+.detail_heading{
+    font-size: 1.3rem;
+    text-align: left;
+}
+.jobs_detail{
+    background:white;
+    width: 80%;
+    margin-left: 10%;
+    padding: 2%;
+    border-radius: 4px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+    transition: all 1s;
+    margin-bottom: 2%;
+    display: none;
+}
+.place{
+    font-family: 'Oxygen';
+    text-align: left;
+    opacity: 0.6;
+}
+.para_setting{
+    font-family: 'Oxygen';
+    text-align: left;
+}
+.plus_icon,.minus_icon{
+    font-size: 2rem;
+    font-weight: 800;
+    float: right;
+}
+.minus_icon{
+    display: none;
+}
+.button_one{
+    background-color:#F4B63F;
+    color: white;
+    padding: 1% 2% 1% 2%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+    margin-right: 5%;
+}
+.button_one:hover{
+    background-color: #ffff;
+    color: #38c0ca;
+}
+
+a{
+    cursor: pointer;
+}
+.close{
+    text-align: right;
+    position: absolute;
+    /* width: 5%; */
+    top:2%;
+    /* right:2%; */
+    cursor: pointer;
+ 
+    
+
+}
+.close img {
+    width: 20%;
+    position: relative;
+    left: -5px;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    /* top: 100px; */
+    background-color: #38c0ca;
+    color: #ffff;
+}
+.logo_styling{
+    width: 200px;
+    height: auto;
+    
+}
+.req1{
+    position: fixed;
+    width: 100%;
+    top: -6%;
+    z-index: 9999999;
+    animation: test_animation 0.7s 2;
+    
+}
+.req{
+  
+    
+    position: fixed;
+    bottom: 0%;
+
+    
+}
+.testing{
+    font-size: 30px;
+    color: red;
+    animation: test_animation 0.7s 2;
+    overflow: hidden !important;
+   
+
+
+}
+.close_meeting{
+    background-color:#F4B63F;
+    color: #ffff;
+    border-radius: 14px;
+    padding-top: 12%;
+    margin: 4%;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    z-index: 999999999 ;
+}
+.request_a_meeting{
+    background-color:#F4B63F;
+    color: #ffff;
+    border-radius: 14px;
+    padding: 6%;
+    margin: 2%;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    z-index: 999999999 ;
+    
+}
+.abc{
+    overflow-y: hidden !important;
+}
+.email_button{
+
+    padding: 4%;
+    border-radius: 14px;
+    background-color: #ffff;
+    width: 60%;
+    position: relative;
+    left: 70px;
+    cursor: pointer;
+   
+}
+.email_button a:hover{
+    color: #38C0CA;
+}
+.email_setting{
+    position: relative;
+    top: -5px;
+}
+.email_button a{
+    color: #1d1e2c;
+    cursor: pointer;
+}
+
+.last_line{
+    text-align: center;
+    padding-top: 2%;
+}
+.logo_styling{
+    text-align: left;
+    padding: 2%;
+}
+.nothing_found{
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+@media only screen and (max-width:1280px){
+.clendly_close{
+   
+    top:9%;
+    /* right:2%; */
+    width: 80%;
+  
+}
+.clendly_close img {
+   
+    width: 3% !important;
+   
+}
+}
+@media only screen and (max-width:1080px){
+    .req1{
+        top: 5%;
+    }
+}
+@media only screen and (max-width:990px){
+  .bg_control{
+      background-image: none;
+      color: black;
+  }
+    .abc{
+        min-width: 100px;
+    }
+    .clendly_close{
+      
+        top:6%;
+        width: 85%;
+       
+      
+    }
+    .clendly_close img {
+       
+        width: 5% !important;
+     
+    }
+    .punch_line{
+        font-size: 1.2rem;
+    }
+
+
+}
+@media only screen and (max-width:768px){
+
+    .form_setting{
+        width: 90%;
+        margin-left: 4%;
+    }
+    .input_setting{
+         width: 60%;
+    }
+    .bg_color{
+        width: 80%;
+    }
+    .form_sub_div{
+        width: 80%;
+    }
+    .resume_input_setting{
+        left: 20px;
+    }
+   .translate_btn{
+       top: 0px;
+   }
+   .close img {
+    width: 30%;
+  
+}
+.button_register{
+    width: 50%;
+}
+.req1{
+    top: 8%;
+}
+.abc{
+    min-height: 900px;
+}
+.clendly_close {
+    top: -2%;
+    width: 95%;
+}
+.designation_heading{
+    font-size: 1.2rem;
+    max-width: 150px;
+}
+.plus_icon,.minus_icon{
+    font-size: 1.2rem;
+}
+   
+}
+@media only screen and (max-width:550px){
+    
+    .req1{
+       
+        top: 0%;
+    }
+    .abc{
+        min-height: 400px !important; 
+        max-height: 450px;  
+        overflow-y: scroll;
+       }
+}
+@media only screen and (max-width:400px){
+    .input_setting{
+        width: 60%;
+    }
+    .like_heading{
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+    .like_sub_heading{
+        font-size: 1rem;
+    }
+  
+    .submit_setting{
+        font-size: 0.6rem;
+        padding: 4% 0px 4% 0px;
+        width: 30%;
+        border-radius: 5px;
+    }
+    
+  
+}
+@media only screen and (max-width:320px){
+  
+   .abc{
+    max-height: 500px;
+}
+}

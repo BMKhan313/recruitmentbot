@@ -1,0 +1,133 @@
+.main_div {
+  /* background-image: linear-gradient(41deg,#45dec0,#53c3bf 46%,#60a8be); */
+  background: #1d1e2c;
+  color: white;
+  padding: 1% 1%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.recruitment_logo,
+.sign_up_button {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+.recruitment_logo {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.logo_styling {
+  width: 200px;
+  height: auto;
+}
+
+/* .sign_up_button{
+    text-align: right;
+} */
+/* .text_div{
+    background-color: white;
+    padding: 2% 4% 2%  4%;
+    width: max-content;
+    color:#60a8be !important;
+    float: right;
+    border-radius: 25px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+    border: 2px solid transparent;
+    cursor: pointer;
+    min-width: 80px;
+    float: right; 
+} */
+.text_div:hover {
+  border-color: #60a8be;
+}
+.link_style {
+  background: #f4b63f !important;
+  padding: 1% 4%;
+  width: max-content;
+  color: #ffff !important;
+  float: right;
+  border-radius: 25px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  border: 2px solid transparent;
+  cursor: pointer;
+  min-width: 80px;
+  font-family: "Poppins";
+  border: 0.6px solid white;
+  z-index: 5;
+}
+.link_style:hover {
+  background: #fff !important;
+  color: #1d1e2c !important;
+}
+
+.space {
+  background-color: white;
+  /* color:#60a8be !important; */
+  position: relative;
+  left: -10px;
+}
+.space_left {
+  position: relative;
+  left: -60px;
+}
+@media only screen and (max-width: 900px) {
+  .space_left {
+    left: -2%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .main_div {
+    /*  padding-bottom: 7%;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .space {
+    left: 0%;
+    top: 0px;
+    position: static;
+  }
+  .recruitment_logo {
+    flex: 1;
+    /*border: 5px solid red;*/
+  }
+  .logo_styling {
+    width: 100%;
+    height: auto;
+  }
+  .recruitment_logo,
+  .sign_up_button {
+    display: flex;
+    width: 100%;
+    vertical-align: auto;
+  }
+  .sign_up_button {
+    flex: 1;
+    /* border: 5px solid lightgreen;*/
+  }
+  .link_style {
+    float: none;
+    margin: 1% 5% 1% 1%;
+    min-width: 85px;
+  }
+  .text_div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    /*  border: 5px solid lightblue;*/
+  }
+  .adjust_space {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 4%;
+  }
+}
+

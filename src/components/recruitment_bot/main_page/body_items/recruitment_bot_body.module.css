@@ -1,0 +1,739 @@
+/* ............................................high quality ..................................................  */
+/* h1{
+  color:white;
+} */
+.high_quality_assesssment {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 20px;
+}
+
+.high_quality_assesssment_heading2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  padding-bottom: 2%;
+}
+
+.high_quality_assesssment_heading {
+  font-family: "Oxygen";
+  text-align: left;
+  margin: 2% 2% 2% 10%;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.top_first {
+  background-color: #ffff;
+  border-radius: 14px;
+  margin: 2%;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+
+  text-align: left;
+  padding: 5% 0% 1% 15%;
+}
+.top_first1 {
+  background-color: #1d1e2c;
+  border-radius: 14px;
+  margin: 2%;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+
+  text-align: left;
+  padding: 5% 0% 1% 15%;
+}
+.right_side_img1 {
+  display: none;
+}
+.top_first1:hover {
+  background-color: #1d1c2e;
+  color: #ffff;
+}
+.icon1_setting {
+  width: 10%;
+  position: relative;
+  left: -15%;
+  top: -30px;
+}
+.top_first_heading1 {
+  font-family: "Oxygen";
+  text-align: left;
+  color: #ffff;
+  font-size: 1.3rem;
+  padding-right: 4%;
+  font-weight: 800;
+}
+.top_first_heading {
+  font-family: "Oxygen";
+  font-weight: 800;
+  text-align: left;
+  color: #1d1e2c;
+  font-size: 1.3rem;
+  padding-right: 4%;
+}
+.para_setting1 {
+  font-family: "Oxygen";
+  color: #ffff;
+  margin-top: -5%;
+  padding-right: 4%;
+  text-align: left;
+}
+
+.para_setting {
+  font-family: "Oxygen";
+  color: #1d1e2c;
+  margin-top: -5%;
+  padding-right: 4%;
+  text-align: left;
+}
+.top_img1_setting {
+  width: 100%;
+  margin-top: 35%;
+}
+.top_first1:hover {
+  cursor: pointer;
+}
+.top_first:hover {
+  cursor: pointer;
+}
+.left_side_boxes {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+.right_side_img {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1%;
+  /* margin-top: -3%; */
+  width: 40%;
+}
+
+/* ......................................................First Div Ends Here..........................  */
+
+/* {...................................................Second Div...................................} */
+
+.loxo_main_div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  top: 60px;
+}
+.loxo_subDiv {
+  background-color: #1d1e2c;
+  color: #ffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 80%;
+  height: 100%;
+}
+.loxo_heading_setting {
+  text-align: left;
+  color: #38c0ca;
+  font-weight: 900;
+  margin: 10% 5% 5% 5%;
+}
+.loxo_heading_setting2 {
+  text-align: left;
+  font-size: 2.15rem;
+  font-weight: 500;
+  margin: 5% 0% 5% 5%;
+}
+.loxo_paragraph {
+  font-family: "Oxygen";
+  text-align: left;
+  margin: 5% 0% 5% 5%;
+  line-height: 1.8;
+  /* font-size: 1.3rem; */
+}
+.demo_button {
+  background-color: #38c0ca;
+  color: white;
+  border-radius: 14px;
+  padding: 2% 1% 2% 1%;
+  margin: 2% 2% 5% 5%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  width: 40%;
+  text-align: center;
+}
+.loxo_img_setting {
+  width: 100%;
+  /* margin-bottom: 10%; */
+}
+
+/* .......................................Second Div Ends here........................................... */
+
+/* ..........................................Third Div .......................................................  */
+.main_div_of_text_img_style {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 120px;
+}
+.main_div_of_text_img_style_sub {
+  width: 80%;
+}
+.adjustspace {
+  text-align: left;
+  background-color: #1d1e2c;
+  color: #ffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  /* margin-top: 5%; */
+}
+
+.heading_font {
+  font-weight: 800 !important;
+  font-family: "Oxygen";
+  font-size: 2rem;
+  margin: 5%;
+  text-align: left;
+  color:white;
+}
+
+.heading_font2{
+  color: #1D1E2C;
+  font-weight: 800 !important;
+  font-family: "Oxygen";
+  font-size: 2rem;
+  margin: 5%;
+  text-align: left;
+ 
+}
+
+.para_setting_div2 {
+  margin: 5%;
+}
+
+.img1_setting {
+  width: 100% !important;
+  margin-top: 0% !important;
+}
+
+/* ...............................Third Div Ends Here .............................  */
+
+/* ...................Fourth Div ...................  */
+.natural_language_div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  top: 180px;
+}
+.natural_language_subdiv {
+  background-color: #ffff;
+  color: #1d1e2c;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  height: 100%;
+  position: relative;
+}
+
+.natural_language_heading {
+  text-align: left;
+  color: #38c0ca;
+  font-weight: 900;
+  margin: 10% 5% 5% 5%;
+}
+.natural_language_sub_heading {
+  font-weight: 700;
+  text-align: left;
+  margin: 5%;
+}
+.natural_language_div_paragraph {
+  margin: 5%;
+  text-align: left;
+}
+.natural_img {
+  width: 100%;
+  /* text-align: left; */
+}
+
+/* ............................................. Fourth Div Ends Here .....................................  */
+
+/* .................Fifth Div...................................  */
+.main_div_of_text_img_style2 {
+  display: grid;
+  place-items: center;
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 200px;
+}
+.main_div_of_text_img_style2_sub {
+  width: 80%;
+  color: #1d1e2c;
+  border-radius: 15px;
+}
+.adjustspace2 {
+  background-color: #1d1e2c;
+  color: #ffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  position: relative;
+  left: 20px;
+  text-align: left;
+  margin-top: 5%;
+}
+.img2_setting {
+  width: 100%;
+  margin-top: 8%;
+  text-align: left;
+}
+
+/* ........................................Fifth Div Ends here .................................  */
+
+/* ...................................Sixth Div ........................  */
+
+.put_candidates_main_div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  top: 300px;
+}
+.put_candidates_sub_div {
+  width: 80%;
+  height: 100%;
+}
+.put_right_color {
+  background-color: #1d1e2c;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+/* ...................................Sixth Div Ends Here ........................  */
+
+/* .......................................Seventh Div ...........................................  */
+
+.main_div_of_text_img_style_put {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 340px;
+}
+.main_div_of_text_img_style_sub_put {
+  width: 80%;
+  background-color: #1d1e2c;
+  color: #ffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+.adjustspace3 {
+  text-align: left;
+}
+
+.img1_setting {
+  width: 100%;
+  margin-top: 5%;
+}
+
+/* ...............Seventh Div Ends Here.........................  */
+
+/* ....................................Eight Div    ...................  */
+
+.main_div {
+  width: 100%;
+  height: 90%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  top: 420px;
+}
+.main_div1 {
+  position: relative;
+  top: 420px;
+}
+
+.sub_div {
+  /* background-color:#ffff !important; */
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+}
+.font {
+  position: relative;
+  top: 20px;
+  font-weight: 800;
+  font-size: 3rem !important;
+  color:white !important;
+}
+.color_work {
+  color: #f4b63f;
+}
+.work_img {
+  width: 60%;
+  position: relative;
+  top: 10px;
+}
+.background_color {
+  background-color: #1d1e2c;
+  color: #ffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* ..................................................... Eight Div Ends Here ..............................    */
+
+/* ..................................................... Ninth Div..............................    */
+.heading_area {
+  color: #1d1e2c;
+  text-align: left;
+  margin: 3% 3% 3% 0%;
+}
+.stats_heading {
+  font-weight: 800;
+  font-family: "Oxygen";
+}
+.parent_of_white_boxes {
+  position: relative;
+  left: 10px;
+}
+.childs {
+  height: 180px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 20px 2px 20px 2px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  text-align: left;
+}
+.counter_style {
+  font-size: 3rem;
+  color: #38c0ca;
+  padding: 5% 0% 2% 6%;
+  font-weight: 600;
+}
+
+.speed_paragraph {
+  font-family: "Oxygen";
+  font-weight: 600;
+  padding: 0% 6% 5% 8%;
+}
+
+/* .............................................. Ninth Ends Here ............................  */
+
+/* .................................. Tenth Div .................................  */
+.req1 {
+  position: fixed;
+  width: 100%;
+  top: -6%;
+  z-index: 9999999;
+}
+.abc {
+  overflow-y: hidden !important;
+}
+
+.req {
+  position: fixed;
+  bottom: 0%;
+}
+.close_meeting {
+  background-color: #38c0ca;
+  color: #ffff;
+  border-radius: 14px;
+  padding-top: 12%;
+  margin: 4%;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  z-index: 999999999;
+}
+.request_a_meeting {
+  background-color: #f4b63f;
+  color: #ffff;
+  border-radius: 14px;
+  padding: 6%;
+  margin: 2%;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  z-index: 999999999;
+}
+.clendly_close {
+  position: absolute;
+  top: 9%;
+  width: 72%;
+}
+.clendly_close img {
+  cursor: pointer;
+
+  width: 3% !important;
+  position: relative;
+}
+
+/* ........................................... Tenth Div Ends Here ..........................  */
+
+.loading_setting {
+  text-align: center;
+  color: #ffff;
+}
+
+/* ...................................Ends here...........................................  */
+
+@media only screen and (max-width: 2500px) {
+  .top_img1_setting {
+    width: 100%;
+    margin-top: 15%;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .top_img1_setting {
+    width: 100%;
+    margin-top: 35%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .list_styling {
+    width: 30%;
+    text-align: left;
+  }
+
+  .clendly_close {
+    top: 9%;
+    width: 81%;
+  }
+  .clendly_close img {
+    width: 3% !important;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .req1 {
+    top: 5%;
+  }
+  .childs {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .abc {
+    min-width: 100px;
+  }
+  .top_img1_setting {
+    width: 90%;
+    margin-top: 5%;
+  }
+  .left_side_boxes {
+    width: 82%;
+  }
+  .right_side_img {
+    width: 80%;
+  }
+  .clendly_close {
+    top: 2%;
+  }
+  .clendly_close img {
+    width: 5% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .top_img1_setting {
+    margin: 0%;
+  }
+  .req1 {
+    top: 8%;
+  }
+  .abc {
+    min-height: 900px;
+  }
+  .natural_language_subdiv {
+    background-color: #ffff;
+    color: #1d1e2c;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  .left_side {
+    background-color: #ffff;
+    border-radius: 0px;
+    border-top-left-radius: 15px;
+    box-shadow: none;
+  }
+  .translate_btn {
+    top: 0px;
+  }
+
+  .adjustspace2 {
+    border-radius: 0px;
+    border-bottom-left-radius: 15px;
+    box-shadow: none;
+    background-color: transparent;
+    color: #1d1e2c;
+  }
+  .main_div_of_text_img_style2_sub {
+    background-color: #ffff;
+    color: #1d1e2c;
+    border-radius: 15px;
+
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  .put_right_color {
+    border-radius: 0px;
+    border-top-left-radius: 15px;
+    box-shadow: none;
+  }
+  .put_candidates_sub_div {
+    background-color: #1d1e2c;
+    color: #ffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  .adjustspace3 {
+    box-shadow: none;
+    border-radius: 0px;
+    border-top-left-radius: 15px;
+  }
+  .high_quality_assesssment_heading {
+    font-size: 1.3rem;
+  }
+  .main_div_of_text_img_style_sub_put {
+    background-color: #1d1e2c;
+    color: #ffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+  }
+  .put_img {
+    margin: 5%;
+  }
+  .main_div_of_text_img_style_sub {
+    background-color: #1d1c2e;
+    color: #ffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+  }
+  .close img {
+    width: 30%;
+  }
+  .adjustspace {
+    background-color: #1d1e2c;
+    border-radius: 0px;
+    box-shadow: none;
+    border-top-left-radius: 15px;
+  }
+
+  .right_side_img {
+    display: none;
+  }
+  .right_side_img1 {
+    display: block;
+    margin-top: 8%;
+    margin-bottom: 3%;
+  }
+  .high_quality_assesssment_heading {
+    position: relative;
+  }
+  .comp_setting {
+    width: 35%;
+    left: 0px;
+  }
+  .childs {
+    height: max-content;
+  }
+  .clendly_close {
+    top: -2%;
+    width: 95%;
+  }
+  .font {
+    top: 0px;
+  }
+  .font {
+    font-size: 2rem !important ;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .list_styling {
+    width: 70%;
+    text-align: left;
+  }
+  .input_setting {
+    vertical-align: middle;
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 70%;
+  }
+  .submit_setting {
+    padding: 6px 10px;
+    background-color: #7e3a77;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    color: white;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .humanly_sub_heading2 {
+    font-size: 1.5rem;
+  }
+  .loxo_heading_setting2 {
+    font-size: 1.8rem;
+  }
+  .demo_button {
+    width: 75%;
+    font-size: 1rem;
+  }
+  .req1 {
+    /* overflow-y: hidden; */
+    top: 0%;
+  }
+  .abc {
+    min-height: 400px !important;
+    max-height: 450px;
+    overflow-y: scroll;
+  }
+
+  .stats_heading {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .heading_font {
+    font-size: 1.3rem;
+  }
+  .top_first_heading {
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+  .top_first_heading1 {
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .icon1_setting {
+    width: 10%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .abc {
+    max-height: 500px;
+  }
+  .heading_font {
+    margin: 0%;
+  }
+  .email_button {
+    left: 50px;
+  }
+
+  .button_register {
+    width: 50%;
+    position: relative;
+    left: 20%;
+  }
+}

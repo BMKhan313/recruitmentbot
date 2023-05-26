@@ -1,0 +1,50 @@
+.main_div{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.5);
+    z-index: 5 !important;
+}
+.job_code_prompt{
+    position: relative;
+    top:0;
+    left:0;
+    background: white;
+    color: black;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin:10% 10% 10% 25%;
+    padding-bottom: 3%;
+}
+.job_code_heading{
+    background-image: linear-gradient(41deg,#45dec0,#53c3bf 46%,#60a8be);
+    width: 100%;
+    color: white;
+    padding: 2%;
+    font-size: 2rem;
+}
+.drop_down_div{
+    padding: 3%;
+}
+.select_styling{
+    width: 90%;
+    padding: 2%;
+    border:2px solid #45dec0;
+    border-bottom:2px solid #45dec0 !important;
+}
+.submit_job_code{
+    width: max-content;
+    font-size: 1.5rem;
+    padding: 1% 3% 1% 3%;
+    background: #45dec0;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media only screen and (max-width:800px){
+    .job_code_prompt{
+        width:88%;
+        margin:50% 0% 0% 4%;
+    }
+}

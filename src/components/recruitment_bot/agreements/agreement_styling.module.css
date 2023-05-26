@@ -1,0 +1,110 @@
+.main_div{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.subdiv{
+    width:80%;
+}
+.main_image_styling{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+}
+.link_styling{
+    color: blue !important;
+    cursor: pointer;
+}
+.content_styling{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+    font-family: 'Oxygen';
+    font-size: 1.3rem;
+}
+.heading_one{
+    font-family: 'Oxygen';
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+    font-weight: 800;
+}
+/* .................................. Clendly Code .................................  */
+.req1{
+    position: fixed;
+    width: 100%;
+    top: -6%;
+    z-index: 9999999;
+   
+   
+    
+}
+.abc{
+    overflow-y: hidden !important;
+}
+.scroll{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    cursor: pointer;
+}
+.req{
+   
+    
+    position: fixed;
+    bottom: 0%;
+}
+.close_meeting{
+    background-color:#F4B63F;
+    color: #ffff;
+    border-radius: 14px;
+    padding-top: 12%;
+    margin: 4%;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    z-index: 999999999 ;
+   
+}
+.request_a_meeting{
+    background-color:#F4B63F;
+    color: #ffff;
+    border-radius: 14px;
+    padding: 6%;
+    margin: 2%;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    z-index: 999999999 ;
+  
+    
+}
+.clendly_close{
+    position: absolute;
+    top:9%;
+    width: 72%;
+  
+}
+.clendly_close img {
+    cursor: pointer;
+ 
+    width: 3% !important;
+    position: relative;
+  
+}
+
+/* ........................................... Clendly Code Ends Here ..........................  */
+@media only screen and (max-width:990px){
+    .main_image_styling{
+        height: auto;
+    }
+}
+@media only screen and (max-width:550px){
+    .heading_one{
+        font-size: 1.5rem;
+    }
+}

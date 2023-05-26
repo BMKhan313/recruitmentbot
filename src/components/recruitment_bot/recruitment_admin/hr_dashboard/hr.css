@@ -1,0 +1,102 @@
+/* css For calender icon to be visible in hr dashboard when input type is date*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
+
+[type="date"] {
+  background: #fff
+    url("https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png")
+    97% 50% no-repeat;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+.ant-table-thead > tr > th {
+  /* color: rgb(0, 0, 0); */
+  color: white;
+  letter-spacing: 1;
+  background: #f4b63f !important;
+  margin-bottom: 120px !important;
+  width: 250px !important;
+  font-size: 18px !important;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important ; */
+  font-weight: 400 !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ant-table-thead {
+  margin: 90px !important;
+  background: #2394e0 !important;
+}
+
+.ant-table-tbody {
+  /* color: white;
+  font-size: 22px !important; */
+  /* background: #abb930 !important; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ant-modal-body {
+  background-color: #efefef;
+  /* height: 350px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ant-modal-header {
+  background: #f4b63f;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+  /* margin:10px; */
+  transform: scaleX(1.03);
+  /* height: 70px; */
+}
+
+.ant-input,
+.ant-select,
+.ant-picker {
+  margin-top: 20px;
+  width: 100%;
+  padding: 5px 5px 5px 15px !important;
+  border: 0 !important;
+  height: 40px !important;
+  background: white;
+  outline: none !important;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 30px;
+}
+
+.ant-select-selector {
+  /* width: 102% !important; */
+  /* margin: 0 4% 0 0 !important; */
+  /* margin-right: 40px !important; */
+  /* height: 40px !important; */
+  border: 0 !important;
+
+  padding-left: 0 !important;
+  outline: none !important;
+}
+
+/* .ant-select-selection-item{
+  padding: 5px 5px !important;
+} */
+
+.ant-modal-footer {
+  background-color: #efefef;
+}
+.ant-btn-primary {
+  background: #f4b63f !important;
+  border: none !important;
+}
+/* .ant-picker{
+  width: 102% !important;
+} */
+
+/* .ant-select-selector{
+  width: 100%;
+} */

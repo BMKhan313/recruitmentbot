@@ -1,0 +1,286 @@
+$yellow : #F4B63F;
+$darkBlue : #1D1E2C;
+
+
+
+@mixin center{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    // justify-content: space-between;
+    flex-direction: column !important;
+}
+
+::-webkit-scrollbar {
+	width: 5px !important;
+}
+::-webkit-scrollbar-track {
+	background: #f6f6f6;
+	border-radius: 14px;
+}
+::-webkit-scrollbar-thumb {
+	background: #1d1e2c1f !important;
+	border-radius: 5px !important;
+}
+
+.container{
+    background-image: url("./static/texture.png");
+    // background-size:cover;
+    // background-position:bottom;
+    // background-color: #ffffff;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+
+    // flex-direction: column;
+    @include center();
+    min-height: 100vh;
+    width: 100vw;
+    flex-wrap: nowrap;
+    // height: 100vh;
+    // overflow: hidden;
+    // flex-direction: column;
+// position: relative;
+    // background-color: #F4B63F;
+
+    .wave{
+    position: absolute;
+    // height: auto;
+    width: 80vw;
+    left: 0;
+    }
+
+
+
+    .tableConatiner{
+        // background-color: #ffffff00;
+        // background-color: #3fc1f4;
+        width: 80vw;
+        // height: 40vh;
+        // align-self: center;
+        
+        // height: 50vh;
+        // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        // border-radius: 10px;
+        // overflow:hidden;
+        // padding: 10px;
+        // height: 50vh;
+        // margin-bottom: 100px;
+
+        margin-top: 5% !important;
+        display: flex;
+        flex-direction: column;
+        // align-self: flex-end;
+        justify-content: center;
+        transition: transform 1s ease;
+        
+        // box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        // box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+        // box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        // box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        // box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        .reloadBtn{
+            width: fit-content;
+            margin-bottom: 10px;
+            border-radius: 50px;
+        }
+       
+        .addButton{
+            background-color: #F4B63F;
+            padding: 0.5% 2.5%;
+            align-self: flex-end;
+            box-shadow: #f4b53f49 0px 3px 8px !important;
+            margin: 2% 0 7% 0 ;
+            font-size:larger;
+            font-weight: 500;
+            transition: transform 1s ease-in;
+            border-radius: 5px;
+            border-radius: 50px;
+            color:white;
+
+            &:hover{
+                transform:scaleX(1.1);
+                cursor: pointer;
+               
+              
+            }
+        }
+
+        // &:hover{
+        //     transform:scale(1.03);
+        //     // cursor: pointer;   
+        // }
+    }
+
+    .dashboardText{
+        color:#1C1E2B;
+       
+    }
+
+    h1{  
+        color : $darkBlue;
+        font-family: "Poppins", sans-serif;
+       color:  #1D1E2C;
+       background: white; 
+       padding: 1% 5%;
+       clip-path: polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%);
+    //    border-radius: 57px;
+    //    border: 2px solid white;
+       font-weight: 700;
+    //    font-size: x-large;
+
+        //    color: white;
+    //    font-family: "Poppins", sans-serif;
+    //    background: #1D1E2C;
+    //    padding: 1% 5%;
+    //    border-radius: 57px;
+    //    border: 2px solid white;
+    //    font-weight: 400;
+    //    font-size: x-large;
+    }
+
+}
+
+.ant-table-thead {
+    tr {
+        th{
+            color: white;
+            background: #3071b9 !important;
+            font-family: 'Poppins', sans-serif;
+          }
+    } 
+   
+}
+
+
+.header{
+    width: 100vw;
+    // height:20vh;
+    // margin: 10px 0;
+    background-color: $darkBlue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1% 10%;
+    z-index: 1;
+    // align-self: flex-start !important;
+    img{
+        width:10%;
+    }
+
+    h3{
+        color: white;
+        margin:0;
+    }
+
+    p{
+        // color: white;
+        // font-weight: bold;
+        background-color: $yellow;
+        // background-color: $darkBlue;
+        padding: 0.4% 2.0%;;
+        margin:0;
+        border-radius: 20px;
+        color:rgb(255, 255, 255);
+        font-size: large;
+        cursor: pointer;
+        font-size: medium;
+        border:1px solid white;
+        // box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    }
+}
+
+.modal{
+    background-color: #37C0CA !important;
+}
+
+.ExpBtn{
+    background-color: #F4B63F;
+    // margin-top: 10px;
+    margin-left: 30px;
+    padding: 3px 20px;
+    border-radius: 15px;
+    width: fit-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    color:white;
+}
+
+.ActivateBtn{
+    background-color: #1E1E2E;
+    // margin-top: 10px;
+    margin-left: 30px;
+    padding: 3px 20px;
+    border-radius: 15px;
+    width: fit-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    color:white;
+}
+
+.career_name{
+    color:rgb(194, 189, 189);
+}
+
+.talent_heading{
+    margin-top: 5%;
+    -webkit-text-stroke: 1px white;
+    // @media screen and (max-width: 550px) {
+    //     font-size: large ;
+    //   }
+}
+.tableDiv{
+    border: 2px solid rgb(255, 255, 255);
+    background: white;
+    margin-bottom: 10%;
+}
+.btnDiv{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.btns{
+    background-color: #F4B63F;
+    padding: 0.5% 2.5%;
+    align-self: flex-end;
+    box-shadow: #f4b53f49 0px 3px 8px !important;
+    margin: 2% 0 0% 0 ;
+    font-size:larger;
+    font-weight: 500;
+    transition: transform 0.5s;
+    border-radius: 5px;
+    border-radius: 50px;
+    color:white;
+    min-width:150px;
+    border:2px solid white;
+    cursor: pointer;
+
+    &:hover{
+        transform:translateY(-3px);
+        
+       
+      
+    }
+}
+
+.loading_Div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.loading_style{ 
+     width: 20%;
+     height: 100%;
+
+     @media screen and (max-width: 550px) {
+        width: 50%;
+        height: 100%;
+      }
+ }
+

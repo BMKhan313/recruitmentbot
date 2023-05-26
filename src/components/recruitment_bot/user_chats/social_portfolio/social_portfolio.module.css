@@ -1,0 +1,97 @@
+.main_div {
+  text-align: left;
+  margin: 4% 0% 2% 0%;
+  position: relative;
+  width: 100%;
+}
+.link_button_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+.heading_setting {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.width {
+  margin-top: 2%;
+  width: 100%;
+}
+.link_text_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 2%;
+}
+.link_text {
+  color: #f6f6f6;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /*hide scrollbar in IE and Edge */
+  scrollbar-width: none; /*hide scrollbar in Firefox */
+}
+.link_text::-webkit-scrollbar {
+  display: none; /* hide scrollbar in  chrome */
+}
+.inputs_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4% 0;
+}
+.input_styling {
+  border: 2px solid white;
+  width: 60%;
+  border-radius: 4px;
+  background: #f6f6f6;
+  padding-left: 1%;
+  /* min-height: 60px; */
+}
+.submit_button {
+  margin-left: 2%;
+  background: #38c0ca;
+  color: white;
+  border-radius: 10px;
+  width: max-content;
+  padding: 1% 5%;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+.list_styling {
+  list-style: none;
+  text-align: left;
+  margin-left: -10%;
+  color: white;
+}
+.close_button {
+  color: red;
+  margin-top: 2%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.edit_button {
+  color: #38c0ca;
+  margin-top: 2%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.add_button {
+  background: #38c0ca;
+  color: white;
+  border-radius: 10px;
+  width: max-content;
+  padding: 1% 5%;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+.form_visibility {
+  display: none;
+}

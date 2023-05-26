@@ -1,0 +1,14 @@
+.slick-next::before {
+  color: #38c0ca !important;
+  font-size: 40px;
+  position: absolute;
+  right: 1px;
+  top: -4px;
+  /* border: 5px solid orange;*/
+}
+
+.slick-prev::before {
+  color: #38c0ca !important;
+  font-size: 40px;
+  /* border: 5px solid palevioletred;*/
+}

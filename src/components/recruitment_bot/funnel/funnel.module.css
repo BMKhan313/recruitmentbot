@@ -1,0 +1,10 @@
+.main_container{
+   display: grid;
+   place-items: center;
+   width: 100%;
+   position: relative;
+   top: 30px;
+}
+.sub_div{
+    width: 50%;
+}

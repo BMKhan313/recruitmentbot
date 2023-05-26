@@ -1,0 +1,42 @@
+.inline_input select {
+  color: #ffff !important;
+  background-color: #1d1e2c;
+  opacity: 0.6;
+  font-size: 15px;
+}
+.inline_input [type="file"] {
+  color: #ffff;
+}
+.inline_input select:focus,
+.inline_input select:valid {
+  border-bottom: 2px solid #38c0ca;
+}
+
+.inline_input {
+  /* border: 2px solid green; */
+  width: 100%;
+  margin-bottom: 1%;
+}
+.label_styling {
+  left: -2px;
+  opacity: 0.6;
+  font-family:"Poppins"
+  /* width: 45%; */
+}
+.resume_input_setting {
+  width: 80%;
+  border-bottom: none !important;
+  position: relative;
+  top: 5px;
+  left: 70px;
+  font-family:"Poppins"
+}
+@media only screen and (max-width: 400px) {
+  .label_styling {
+    left: -7px;
+  }
+  .resume_input_setting {
+    width: 70%;
+    left: 55px;
+  }
+}

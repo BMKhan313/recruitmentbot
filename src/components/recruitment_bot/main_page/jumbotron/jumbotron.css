@@ -1,0 +1,176 @@
+.typewrite{
+  color: none!important;
+}
+.typewrite .wrap{
+  font-family: 'Oxygen';
+  color:black;
+
+}
+.typewrite > .wrap { 
+  border-right: 0.08em solid #5BB2BE;
+}
+.typewrite-container{
+  margin-top: 8%;
+}
+
+
+
+.jumbotron_main_holder {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  padding: 5% 0% 0% 0%;
+}
+
+.jumbotron_info_holder {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  min-height:300px
+}
+
+.jumbotron_info_main {
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  float: right;
+  font-family: "Oxygen";
+  font-size: 48px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.jumbotron_icon_holder {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+}
+
+.jumbotron_icon_main {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+}
+
+.jumbotron_icon {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+}
+
+.chat_bubble_holder {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+}
+
+.chat_bubble_main {
+  padding: 2% 0% 0% 0%;
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  float: left;
+}
+
+.chat_bubble_icon {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  cursor: pointer;
+}
+
+#chat_bubble_post_767 {
+  display: none;
+}
+.recruitment_whitelisting_demo{
+  color: white;
+  font-size: 1.5rem;
+  background-image: linear-gradient(41deg,#45dec0,#53c3bf 46%,#60a8be);
+  width: max-content;
+  border-radius: 12px;
+  padding:2% 4% 2% 4%;
+  margin-left: 30%;
+  cursor: pointer;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+}
+.anchor_link_styling{
+  color:inherit !important;
+  text-decoration: inherit !important;
+}
+.anchor_link_styling:hover{
+  color:inherit !important;
+  text-decoration: inherit !important;
+}
+/* Typewriter Effect on Ipad Pro */
+@media screen and (max-width: 1024px) {
+  .typewrite-container{
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .typewrite-container{
+    height: 120px;
+  }
+  .jumbotron_info_main {
+    font-size: 30px;
+  }
+  .chat_bubble_main {
+    padding: 7% 0% 0% 0%;
+  }
+  .chat_bubble_icon {
+    width: 80%;
+  }
+  .jumbotron_info_holder {
+    min-height: 180px;
+    
+  }
+  .recruitment_whitelisting_demo{
+    font-size: 1.5rem;
+    margin-bottom: 4%;
+  }
+  
+}
+
+@media only screen and (max-width: 767px) {
+
+  .typewrite .wrap{
+    /* display: none; */
+    height: 200px;
+    color: #000!important;
+  }
+  .typewrite-container{
+    height: 130px;
+  }
+  .jumbotron_info_main {
+    color: black;
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  .chat_bubble_main {
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+  }
+  .chat_bubble_icon {
+    margin: 0 auto;
+  }
+  #chat_bubble_pre_767 {
+    display: none;
+  }
+  #chat_bubble_post_767 {
+    display: block;
+  }
+  .recruitment_whitelisting_demo{
+    margin-bottom: 15%;
+  }
+}

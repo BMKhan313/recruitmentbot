@@ -1,0 +1,67 @@
+.h1{
+    color: #59b5be;
+}
+.loading_gif{
+    width: 50px;
+    margin: 0 auto;
+}
+.container{
+    background-color: #FFF;
+    /* background: linear-gradient(41deg,#45dec0,#53c3bf 46%,#60a8be); */
+    /* border: 1px solid rgb(92,175,190); */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 2%;
+    display: grid;
+}
+.label{
+    display: grid;
+    align-items: end;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 2%;
+}
+.label input{
+    border: none;
+    font-size: 1.5vh;
+    border: 2px solid #b8b7b7;
+    border-radius: 5px;
+    padding: 2%;
+}
+.container button{
+    border: none;
+    cursor: pointer;
+    padding: 1.5%;
+    border-radius: 5px;
+    /* background-color: #59b5be; */
+    background-color: #1D1E2C;
+    color: #FFF;
+    font-weight: 450;
+    font-size: large;
+    font-size: 1.5vh;
+    transition: all 0.3s;
+    /* max-height: 40px; */
+}
+.container button:hover{
+    background-color: #FFF;
+    /* border: 1.5px solid #59b5be; */
+    border: 1.5px solid #1D1E2C;
+    
+    /* color: #59b5be; */
+    color: #1D1E2C;
+}
+
+.container p{
+    margin: 1% auto;
+    font-size: 14px;
+    font-size: 1.3vh;
+}
+.container p span:nth-child(2){
+    color: #0a622ce3;
+    font-weight: 600;
+    cursor: none;
+}
+.container p span:hover{
+    cursor: pointer;
+    /* color: #59b5be; */
+    color: #1D1E2C;
+}
