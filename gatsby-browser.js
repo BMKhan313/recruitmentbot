@@ -40,6 +40,9 @@ export const onClientEntry = async () => {
     // await import("./src/ie11CustomProperties")
   }
 }
+/**
+ * This function wraps the root element with a StateProvider component in JavaScript.
+ */
 export const wrapRootElement = ({ element }) => (
   <StateProvider>{element}</StateProvider>
 )
