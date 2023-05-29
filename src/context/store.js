@@ -126,7 +126,7 @@ const StateProvider = ({ children }) => {
           ...state,
           profileImage: action.payload,
         }
-
+        
       default:
         throw new Error()
     }
